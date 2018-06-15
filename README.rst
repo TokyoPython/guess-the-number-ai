@@ -53,7 +53,7 @@ Secondly, there is a class ``GuessingGameAi`` which has 3 important methods:
 
 .. code:: python
 
-    class MyAi(GuessingGameAi):
+    class GuessingGameAi:
 
         def __init__(self, game: GuessingGame):
             self.game = game
